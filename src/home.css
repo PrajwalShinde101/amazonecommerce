@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.bannerimage {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(156, 29, 29), rgba(0, 0, 0, 0));
+    z-index: -1;
+    margin-bottom: -20px;
+}
+
+.products__row {
+    display: flex;
+    z-index: 1;
+}
